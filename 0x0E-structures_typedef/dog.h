@@ -1,8 +1,12 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <stdio.h>
 #include "main.h"
 
 /*
- * struct - stores an array of differentvdata types
+ * *dog - stores an array of different data types
+ *
  * @name:name of dog
  * @age:age of dog
  * @owner:dog owner
@@ -13,3 +17,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif
